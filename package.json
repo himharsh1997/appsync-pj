@@ -1,0 +1,28 @@
+{
+  "name": "appsync-pj",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "local": "SLS_DEBUG=* NODE_DEBUG=appsync-* serverless offline start"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "serverless": "^2.0.0",
+    "serverless-appsync-offline": "^1.4.0",
+    "serverless-appsync-plugin": "^1.6.0",
+    "serverless-dotenv-plugin": "^3.1.0",
+    "serverless-offline": "^6.8.0"
+  },
+  "dependencies": {
+    "graphql": "^15.4.0",
+    "apollo-server": "^2.16.1",
+    "apollo-server-express": "^2.16.1",
+    "aws-appsync": "^4.0.1",
+    "aws-sdk": "^2.811.0"
+  },
+  "resolutions": {
+    "graphql-tools": "4.0.7"
+  }
+}

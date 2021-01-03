@@ -1,0 +1,20 @@
+input NumSetInput {
+    a: Int!
+    b: Int!
+}
+
+type Query {
+  _: Boolean
+}
+
+type Mutation {
+  _: Boolean
+}
+
+type Subscription {
+  _: Boolean
+}
+
+extend type Mutation {
+    sum(input: NumSetInput!): Int
+}
